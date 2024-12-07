@@ -1,0 +1,67 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "384bff320d7ecd7634485b4f2def4199",
+    "packages": [
+        {
+            "name": "getsafepay/sfpy-php",
+            "version": "v0.0.18",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/getsafepay/sfpy-php.git",
+                "reference": "145d56b9e219abf03dbc21ce215870152784f164"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/getsafepay/sfpy-php/zipball/145d56b9e219abf03dbc21ce215870152784f164",
+                "reference": "145d56b9e219abf03dbc21ce215870152784f164",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "3.5.0",
+                "phpstan/phpstan": "^1.2",
+                "phpunit/phpunit": "^5.7 || ^9.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Safepay\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Safepay",
+                    "email": "integrations@getsafepay.com"
+                }
+            ],
+            "description": "Safepay PHP Library",
+            "support": {
+                "issues": "https://github.com/getsafepay/sfpy-php/issues",
+                "source": "https://github.com/getsafepay/sfpy-php/tree/v0.0.18"
+            },
+            "time": "2024-11-19T10:31:43+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
