@@ -44,5 +44,6 @@ try {
     ]);
     header("Location: " . $checkoutURL);
 } catch (\UnexpectedValueException $e) {
-    echo 'Error: ' . $e->getMessage();
+    http_response_code(400);
+    exit();
 }
